@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- @font-face {
+@font-face {
   font-family: 'Promixa-Nova-bold', sans-serif;
   src: url('../Demo_Fonts/Fontspring-DEMO-proximanova-bold.otf');
 }
