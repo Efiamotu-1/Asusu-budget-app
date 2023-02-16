@@ -14,33 +14,32 @@
  *= require_self
  */
  @font-face {
-    font-family: 'Promixa-Nova-bold';
-    src: url('../Demo_Fonts/Fontspring-DEMO-proximanova-bold.otf');
-  }
+  font-family: 'Promixa-Nova-bold', sans-serif;
+  src: url('../Demo_Fonts/Fontspring-DEMO-proximanova-bold.otf');
+}
 
-  @font-face {
-    font-family: 'Promixa-Nova-light';
-    font-weight: 300;
-    src: url('../Demo_Fonts/Fontspring-DEMO-proximanova-light.otf');
-  }
+@font-face {
+  font-family: 'Promixa-Nova-light', sans-serif;
+  font-weight: 300;
+  src: url('../Demo_Fonts/Fontspring-DEMO-proximanova-light.otf');
+}
 
 body {
-    font-family: 'Promixa-Nova-light';
-    font-size: 20px;
-    background-color: aliceblue;
+  font-family: 'Promixa-Nova-light', sans-serif;
+  font-size: 20px;
+  background-color: aliceblue;
 }
 
 .bg-blue {
-    background-color: #3778c2;
+  background-color: #3778c2;
 }
 
 .bg-green {
-    background-color: #5fb523; 
+  background-color: #5fb523;
 }
 
-
 .text-gray {
-    color: #434b54; 
+  color: #434b54;
 }
 
 .title {
@@ -51,7 +50,7 @@ body {
 }
 
 .hoverable {
-  color: black
+  color: black;
 }
 
 .hoverable:hover {
