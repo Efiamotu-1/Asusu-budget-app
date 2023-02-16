@@ -1,0 +1,44 @@
+<p style="color: green"><%= notice %></p>
+<div class="category-info">
+  <div class='d-flex p-3'>
+    <%= image_tag @category.icon, class:"image-icon" %>
+    <p class="title">
+    <%= @category.name%> Expenses
+    </p>
+  </div>
+
+</div>
+
+<div class="total">
+  <strong>Total Payment: </strong>
+  <strong>$<%= @category.total %></strong>
+</div>
+
+
+ <div class="expense-category">
+    <% if @expenses.empty? %>
+      <p>There are no expenses yet.</p>
+    <% else %>
+        <% @expenses.each do |expense| %>
+          <div class="expense-list">
+            <%= expense.name %>
+            <span>$<%= expense.amount %></span>
+            <span>
+            <%= link_to "Show", expense_path(expense) %> |
+            <%= link_to "Delete", expense_path(expense), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %>
+            </span>
+            </div>
+        <% end %>
+    <% end %>
+</div> 
+
+
+
+<strong class="mx-4"><%= link_to "Back to category", categories_path, class: "btn btn-primary" %></strong>
+
+<div class="new-form d-flex justify-content-center">
+  <p class="new-form-text pt-2"><%= link_to "New expense", new_expense_path, class:"btn btn-primary" %></p>
+</div>
