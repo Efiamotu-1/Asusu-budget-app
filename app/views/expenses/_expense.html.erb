@@ -1,4 +1,5 @@
 <div id="<%= dom_id expense %>">
+   <% if can? :destroy, expense %>
   <p class="container-flud mx-3 px-2 bg-white border-bottom">
     <strong>Name:</strong>
     <%= expense.name %>
@@ -14,4 +15,5 @@
     <strong>Total Amount: $</strong>
     <%= expense.amount %>
   </p>
+  <% end %>
 </div>
