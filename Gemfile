@@ -22,7 +22,7 @@ gem 'importmap-rails'
 gem 'turbo-rails'
 
 gem 'devise'
-
+gem 'cancancan'
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem 'stimulus-rails'
 
@@ -58,7 +58,6 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem 'cancancan'
   gem 'letter_opener'
   gem 'web-console'
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
