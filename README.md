@@ -50,7 +50,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Budget App <a name="about-project"></a>
+# 📖 Asusu Budget App <a name="about-project"></a>
 
 Asusu Budget App is a web application where you can manage your budget. You have a list of transactions associated with a category, so that you can see how much money you spent and on what. Users can signin and add categories of budget and the expenses for their budgets with this application.
 
@@ -89,7 +89,7 @@ Features
 > Describe between 1-3 key features of the application.
 
 - **Add, Edit and delete Categories for the overall budget**
-- **Add, Edit and delete expenses for each category **
+- **Add, Edit and delete expenses for each category**
 - **Display categories and expenses**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -220,9 +220,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse for the opportunity to work on this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
