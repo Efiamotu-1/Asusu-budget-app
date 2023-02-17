@@ -98,11 +98,11 @@ Features
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link - ](https://budget-app-8wfv.onrender.com/)
+- [Live Demo Link  ](https://budget-app-8wfv.onrender.com/)
 
 ## 🚀 Short Video Demostraction <a name="video"></a>
 
-- [Video](https://www.loom.com/share/c3266608095345e58b10ddff7190852e)
+- [Video](https://www.loom.com/share/832ebc7525fa4ce7b7c7cde634e2c18c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
