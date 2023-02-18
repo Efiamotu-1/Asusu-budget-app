@@ -1,13 +1,13 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Expenses</h1>
+<h1 class="text-gray">Expenses</h1>
 
 <div id="expenses">
   <% @expenses.each do |expense| %>
    <div id="<%= dom_id expense %>">
    <% if can? :destroy, expense %>
   <p class="container-flud mx-3 px-2 bg-white border-bottom">
-    <strong>Name:</strong>
+    <strong class="text-gray">Name:</strong>
     <%= expense.name %>
   </p>
 
@@ -23,7 +23,7 @@
   </p>
 
       <p>
-        <%= link_to "Show this expense", expense_path(expense), class: "btn btn-primary"  %>
+        <%= link_to "Show this expense", expense_path(expense), class: "btn bg-blue"  %>
     </p> 
   <% end %>
 </div>
