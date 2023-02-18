@@ -1,0 +1,180 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@font-face {
+  font-family: 'Promixa-Nova-bold', sans-serif;
+  src: url('../Demo_Fonts/Fontspring-DEMO-proximanova-bold.otf');
+}
+
+@font-face {
+  font-family: 'Promixa-Nova-light', sans-serif;
+  font-weight: 300;
+  src: url('../Demo_Fonts/Fontspring-DEMO-proximanova-light.otf');
+}
+
+body {
+  font-family: 'Promixa-Nova-light', sans-serif;
+  font-size: 20px;
+  background-color: aliceblue;
+}
+
+.bg-blue {
+  background-color: #3778c2;
+}
+
+.bg-green {
+  background-color: #5fb523;
+}
+
+.text-gray {
+  color: #434b54;
+}
+
+.title {
+  color: #434b54;
+  font-size: 2.1em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hoverable {
+  color: #434b54;
+}
+
+.hoverable:hover {
+  color: #007bff;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.category-container {
+  /* Place items at the center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#categories {
+  margin: 5px 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+.category-list {
+  list-style: none;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category-title {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #434b54;
+  text-decoration: none;
+}
+
+.description {
+  font-size: 1em;
+  font-weight: 700;
+  color: #434b54;
+  margin: 0.7rem;
+}
+
+.amount {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #434b54;
+}
+
+.date {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #434b54;
+}
+
+.image-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 5px;
+  background: #ddd;
+  margin-right: 25px;
+  margin-bottom: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.categories li {
+  float: left;
+  width: 33.333%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.category-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  margin: 0 20px;
+}
+
+.total {
+  border: 1px solid #ddd;
+  margin: 10px 20px;
+  font-size: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expense-category {
+  margin-top: 30px;
+}
+
+.expense-list {
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px 20px;
+}
+
+.show-expense {
+  border: 1px solid #ddd;
+  margin: 50px 30px;
+  background-color: gray;
+  border-radius: 5px;
+  padding: 30px 15px;
+}
